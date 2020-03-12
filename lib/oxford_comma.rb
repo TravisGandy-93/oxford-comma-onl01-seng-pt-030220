@@ -7,8 +7,9 @@ def oxford_comma(array)
   when 3
     string = array[0] + ", " + array[1] + ", and " + array[2]
   else
-    string = Array.new
+    string = String.new
     array.each_with_index do |word, index|
+      puts string
       string += "and " + word if index == array.size - 1 
 end
  return string
