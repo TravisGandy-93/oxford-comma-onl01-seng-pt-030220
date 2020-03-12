@@ -11,4 +11,6 @@ def oxford_comma(array)
     array.each_with_index do |word, index|
       string += "and " + word if index == array.size - 1 
 end
+string
+end
 end
