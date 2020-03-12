@@ -10,6 +10,7 @@ def oxford_comma(array)
     string = String.new
     array.each_with_index do |word, index|
       string += "and " + word if index == array.size - 1 
+      
 end
  return string
 end
