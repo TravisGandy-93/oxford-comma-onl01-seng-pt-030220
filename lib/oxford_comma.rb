@@ -4,3 +4,4 @@ def oxford_comma(array)
    return array.to_a 
   when 2
 end
+end
