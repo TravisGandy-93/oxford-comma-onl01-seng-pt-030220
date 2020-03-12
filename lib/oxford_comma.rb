@@ -1,4 +1,4 @@
 def oxford_comma(array)
-  array.join
-  puts array.reverse
+ case array.size 
+ when 1
 end
